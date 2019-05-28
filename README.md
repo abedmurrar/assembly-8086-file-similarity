@@ -25,6 +25,7 @@ Write an 8086 assembly program to find the similarity between two sentences.
     divided by the size of the union of the two processed sentences:
 
 <img src="https://latex.codecogs.com/png.latex?\dpi{120}&space;\bg_white&space;\large&space;Similarity=\frac{(S_1&space;\cap&space;S_2)}{(S_1&space;\cup&space;s_2)}" title="\large Similarity=\frac{(S_1 \cap S_2)}{(S_1 \cup s_2)}" />
+
 ```
 A value “0” means the two sentences are completely dissimilar, “1” that they are identical, and values
 between 0 and 1 representing a degree of similarity.
